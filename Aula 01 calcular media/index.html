@@ -1,0 +1,46 @@
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev Alura - Aula 01</title>
+</head>
+  <body>
+    <div class="container">
+        <h1 class="page-title">
+        Calcular média</h1>
+        <p class="page-subtitle">
+        Descubra qual a sua média de nota de todas as provas!</p>
+        <img src="imagens/logopage.svg" class="page-logo" alt="">
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+      <img src="imagens/aluralogo.png" alt="" class="alura-logo">
+      </a>
+      <p>Insira as suas notas abaixo:</p>
+
+      <div class="entrada"
+       <label for="number">Nota 1º Bimestre></label> <br>
+      <input type="number" id="notaUm"  min="0" max="10" >
+
+     <label>Nota 2º Bimestre</label>
+      <input type="number" id="notaDois"  min="0" max="10">
+    
+     <label>Nota 3º Bimestre:</label>
+      <input type="number" id="notaTres"  min="0" max="10">
+    
+     <label>Nota 4º Bimestre:</label>
+      <input type="number" id="notaQuatro"  min="0" max="10">
+  
+  <p> <input id="btn" type="button" value="Veja sua média!" class="botao" onClick ="calcular()"> </p>
+    </div>
+    <br>
+
+      <div class="resultado">
+       <h2>Sua nota final é: </h2> 
+       <p id="resultado"></p>
+       </div
+       <br>
+       <script src="app.js"></script>
+</body>
+</html>
