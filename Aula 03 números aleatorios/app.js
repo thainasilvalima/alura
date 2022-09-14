@@ -5,10 +5,12 @@ function Chutar() {
   var chute = parseInt(document.getElementById("valor").value);
   console.log(chute);
   if (chute == numeroSecreto) {
-    elementoResultado.innerHTML = "Você acertou";
+    elementoResultado.innerHTML = "Você acertou!!";
   } else if (chute > 10 || chute < 0) {
-    elementoResultado.innerHTML = "Você deve digitar um número de 0 a 10";
-  } else {
-    elementoResultado.innerHTML = " Você Errou";
+    elementoResultado.innerHTML = "Você deve digitar um número de 0 a 10!!";
+    document.getElementById("valor").value = "";}
+   else    {
+    elementoResultado.innerHTML = " Você Errou!!";
+    document.getElementById("valor").value = "";
   }
 }
