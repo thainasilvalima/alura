@@ -2,13 +2,11 @@ h1 {
 
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    font-style: italic;
-    border-radius: 8px;
 }
 body{
 
     background-position: center;
     background-color: azure;
     background-size: auto;
-    
+
 }
