@@ -1,0 +1,153 @@
+
+@import url('http://fonts.cdnfonts.com/css/onttaseckie'); 
+@import url('http://fonts.cdnfonts.com/css/lt-museum');
+@import url('http://fonts.cdnfonts.com/css/bintton');
+
+            
+body {
+    font-family: 'RachelBrown', sans-serif;
+    text-align:right;
+    background: linear-gradient(#f5cff7, black);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+}
+
+.page-title {
+    color: #000000;
+    font-family: 'Onttaseckie', sans-serif;
+    font-size: 80px;
+}
+
+.page-subtitle {
+    color: #000000;
+    margin-top: 10px;
+}
+
+.page-logo {
+    width:350px;
+    margin-top:-80px;
+    margin-bottom:20px;
+}
+
+.alura-logo {
+    position: fixed;
+    bottom: 20px;
+    right:-10px;
+    width: 40px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid rgba(153, 25, 117, 0.322);
+    padding: 8px;
+
+}
+
+.bplogoleft{
+    position:fixed;
+    bottom: 10;
+    left:-15px;
+    width: 80px;
+}
+
+img {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 250px;
+    margin-top: 50px;
+}
+
+h6 {
+    color:rgb(118, 41, 114);
+    font-size:20px;
+    margin-top: -100px;
+    align-items:left;
+}
+
+.grid-5 {
+    padding: 20px 20px 100px 20px;
+    background:black transparent;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    color: rgb(21, 21, 21);
+    width: 300px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border: 2px solid;
+    box-shadow: 6px 4px 8px 4px;
+    border-radius: 8px;
+
+    
+}
+ 
+.grid-5:hover {
+    transform: scale(1.1);
+}
+
+.titulo {
+    font-size: 40px;
+    color: rgb(234, 213, 228);
+    z-index: 999;
+    margin-top: -80px;
+    margin-bottom: 50px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    font-family: 'Bintton', sans-serif;
+
+}
+
+.titulo:hover {
+    transform: scale(1.1);
+}
+
+.nomeAlbuns div{
+    display: inline-block;
+}
+
+.nomeAlbuns a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+    color: #000000;
+    font-family: 'LT Museum', sans-serif;
+}
+
+.tema button {
+    align-self: flex-end;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 8px 16px;
+    background: #f5cff7;
+    border-radius: 100px;
+    border: none;
+    margin-top:-40px;
+  
+  }
+
+  .tema button img {
+    max-height:30px;
+    max-width: 30px;
+    border: none;
+
+  }
+  .dark {
+    background: linear-gradient(#666465, #9f4071);
+  }
+  .dark .tema button {
+    background:transparent;
+    border: none;
+    padding: 10px;
+  }
+  
+
+
+
+  
+ 
+  

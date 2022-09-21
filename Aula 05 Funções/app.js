@@ -33,7 +33,7 @@ function adicionarFilme() {
 
      function apagarFilme() {
       document.getElementById("listaFilmes").innerHTML = "";
-    }
+    } // function para apagar todas os elementos.
     
     document.addEventListener("keydown", function (deletarFilme) {
       if (deletarFilme.key === "Enter") {
