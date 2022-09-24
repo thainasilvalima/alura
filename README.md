@@ -1,3 +1,3 @@
 # alura imersão dev 
 
-olá, esse é meu teste para aprender a usar o github, mozão que tá me ensinando, muito gato amo ele demais. 
+hoje é dia 24 de setembro de 2022 e terminei mais um projeto alura, estou morta mas muito animada, pois consegui fazer em menos tempo do que o outro projeto. :)
