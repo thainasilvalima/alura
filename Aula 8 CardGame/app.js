@@ -5,7 +5,7 @@ let cartas = [
       atributos: {
         ataque: 15,
         defesa: 8,
-        magia: 10
+        nivelfogo: 10
       }
     }),
     (carta2 = {
@@ -15,7 +15,7 @@ let cartas = [
       atributos: {
         ataque: 8,
         defesa: 9,
-        magia: 8
+        nivelfogo: 8
       }
     }),
     (carta3 = {
@@ -25,7 +25,7 @@ let cartas = [
       atributos: {
         ataque: 12,
         defesa: 10,
-        magia: 4
+        nivelfogo: 4
       }
     }),
     (carta4 = {
@@ -35,7 +35,7 @@ let cartas = [
       atributos: {
         ataque: 2,
         defesa: 9,
-        magia: 10
+        nivelfogo: 10
       }
     }),
     (carta5 = {
@@ -45,7 +45,7 @@ let cartas = [
       atributos: {
         ataque: 21,
         defesa: 25,
-        magia: 32
+        nivelfogo: 32
       }
     }),
     (carta6 = {
@@ -55,7 +55,7 @@ let cartas = [
       atributos: {
         ataque: 9,
         defesa: 8,
-        magia: 9
+        nivelfogo: 9
       }
     })
   ];
