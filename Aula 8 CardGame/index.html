@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="http://fonts.cdnfonts.com/css/rutmag-sugan" rel="stylesheet"> <!--font-->
+    <link href="http://fonts.cdnfonts.com/css/ultimate" rel="stylesheet"> <!--font-->
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CardGame</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title"> ⚔️ Batalha dos Dragões 🐉</h1>
+        <div id="placar">
+          <tr>
+            <td>
+              <div id="pJogador"></div>
+            </td>
+            <td>X</td>
+            <td>
+              <div id="pMaquina"></div>
+            </td>
+          </tr>
+        </div><br>
+        <button onclick="sortearCarta()" id="btnSortear">Sortear Dragão</button>
+        <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">
+          Jogar
+        </button>
+        <form id="form">
+          <h1>Olá treinador, bem-vindo ao campo de batalha dos Dragões. Para jogar primeiro você deve sortear uma carta, escolher seu modo de batalha e torcer para derrotar o inimigo! Boa sorte! </h1>
+          <div class="wrapper">    
+              <div id="carta-jogador">
+                <img src="imagens/cardpronto.png" style="width: inherit; height: inherit; position:absolute" />            
+            </div> <h2></h2>
+              <div id="carta-maquina" class="carta">
+                <img src="imagens/cardpronto2.png" style="width: inherit; height: inherit; position:absolute" />
+            </div>
+          </div>
+        </form>
+        <div id="resultado"></div>
+      </div>
+    <script src="app.js"></script>
+</body>
+</html>
