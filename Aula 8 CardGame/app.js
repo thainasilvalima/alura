@@ -104,7 +104,7 @@ let cartas = [
       cartaMaquina.atributos[atributoSelecionado]
     ) 
     {
-         placar[0]++; htmlResultado = "<p class='resultado-final'>Você derrotou o inimigo, clique novamente para sortear!</p>"; break;
+         placar[0]++; htmlResultado = "<p class='resultado-final'>Você derrotou o inimigo, clique sortear para lutar novamente!</p>"; break;
 
     } else if (
       cartaJogador.atributos[atributoSelecionado] <
