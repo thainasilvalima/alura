@@ -1,7 +1,7 @@
-//          chave.  valor.
-var Ninjas = { nome: "Ninjas", vitorias: 2, empates: 1, derrotas: 1, pontos: 0 };
-var Furia = { nome: "Furia", vitorias: 1, empates: 1, derrotas: 2, pontos: 0 };
-var Liquid = { nome: "Liquid", vitorias: 1, empates: 1, derrotas: 2, pontos: 0 };
+//             chave.  valor.
+var Ninjas = { times: "Ninjas", vitorias: 2, empates: 1, derrotas: 1, pontos: 0 };
+var Furia = { times: "Furia", vitorias: 1, empates: 1, derrotas: 2, pontos: 0 };
+var Liquid = { times: "Liquid", vitorias: 1, empates: 1, derrotas: 2, pontos: 0 };
 // toda vez que for criar uma lista de objetos usar "={...}"
 
 function calculaPontos(jogador) {
@@ -18,7 +18,7 @@ var jogadores = [Ninjas, Furia, Liquid];
 function exibeJogadoresNaTela(jogadores) {
   var elemento = "";
   for (var i = 0; i < jogadores.length; i++) {
-    elemento += "<tr><td>" + jogadores[i].nome + "</td>";
+    elemento += "<tr><td>" + jogadores[i].times + "</td>";
     elemento += "<td>" + jogadores[i].vitorias + "</td>";
     elemento += "<td>" + jogadores[i].empates + "</td>";
     elemento += "<td>" + jogadores[i].derrotas + "</td>";
@@ -57,21 +57,13 @@ function adicionarDerrota(i) {
   jogador.derrotas++;
   exibeJogadoresNaTela(jogadores);
 }
-
-function zerarTudo (i) {
-    if ( alert("Tem certeza que deseja remover a pontuação de todos os jogadores?")) {
-      for ( var i = 0; i < jogadores.length; i++ ){
-      var jogador = jogadores[i];
-    jogador.vitorias=0;
-    jogador.empates=0;
-    jogador.derrotas =0;
-    jogador.pontos =0;
+function zerarTudo () {
+    for ( var i = 0; i < jogadores.length; i++ ) {
+    jogadores[i].vitorias = 0;
+    jogadores[i].empates = 0;
+    jogadores[i].derrotas = 0;
+    jogadores[i].pontos = 0;
    }
-   alert("Pontuação removida com sucesso");  
- } else {
-  alert("Operação cancelada! Os pontos foram mantidos");
- }
-   exibeJogadoresNaTela(jogadores);
-  }
-
+  exibeJogadoresNaTela(jogadores);
+}
 

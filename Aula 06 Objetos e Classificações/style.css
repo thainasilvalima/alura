@@ -1,0 +1,124 @@
+
+@import url('http://fonts.cdnfonts.com/css/games');
+@import url('http://fonts.cdnfonts.com/css/bondrians');
+@import url('http://fonts.cdnfonts.com/css/glocs');
+@import url('http://fonts.cdnfonts.com/css/sloppy-hand');
+
+  body {
+    font-family: "Helvetica", sans-serif;
+    min-height: 400px;
+    background-image: url("https://images.hdqwalls.com/wallpapers/valorant-key-art-4k-ny.jpg");
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;  
+
+   
+  }
+
+  div{ text-align: right;
+   padding-right: 21%;
+}
+
+p{ text-align: center;
+   font-family: 'Sloppy Hand', sans-serif;
+   color: azure;
+
+}
+  
+  .container {
+    text-align: center;
+    padding: 50px;
+    height: 120vh;
+    position: center;
+    font-family: 'Bondrians',sans-serif; 
+  
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+    
+
+  table {
+    border-collapse: collapse;
+    border: 5px black;
+    padding: 20px;
+    box-shadow: 8px 8px 8px black;
+    font-size: 20px;
+    text-align: center;
+    
+  }
+
+  .center {
+   margin-left: auto;
+   margin-right: auto;
+
+  }
+  
+  h1 {
+    color: rgb(236, 48, 48);
+    font-family: 'Games', sans-serif;
+    font-size: 50px;
+    text-align: center;
+
+                                                  
+  }
+  
+  h2 {
+    color:rgb(231, 226, 226);
+    font-size: 20px;
+    font-family: 'Games', sans-serif;
+    text-align: center;
+
+  }
+  
+  thead {
+      color: rgb(237, 222, 222);
+      font-size:25px;
+      letter-spacing: 8%; 
+      background-color:rgb(0, 0, 0);
+      
+      
+  
+  }
+  
+  td { color: white;
+    font-size: 20px;
+
+  }
+  
+  tr {
+    border-style: outset;
+    font-size: 20px;
+    font-family: 'Bondrians',sans-serif; 
+  
+  }
+  
+  th {
+    border: 2px;
+    color: rgb(238, 230, 230);
+    border-style:none;
+    font-size: 20px;
+  }
+
+  button {
+   border-radius: 8px;
+   box-shadow: 0 0 2px 2px;
+   transition: all 150ms ease-in-out;
+   background-color: rgba(0, 0, 0, 0.64);
+   color: rgba(218, 220, 220, 0.71);
+   font-family: 'Glocs', sans-serif;
+   font-size: 10px;
+   
+
+  }
+  
+  button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px 0 rgb(20, 212, 142) ;
+  }
+
+
+
